@@ -1,0 +1,38 @@
+:root {
+  --bg: #0b0a09;
+  --panel: #15130f;
+  --panel-border: #2a2620;
+  --ink: #ede7db;
+  --ink-dim: #8a8375;
+  --amber: #e8a33d;
+  --amber-dim: #7a5a26;
+  --up: #5fbf8e;
+  --down: #d9705a;
+  --mid: #d9b25a;
+  --mono: "SFMono-Regular", ui-monospace, Menlo, Consolas, "Liberation Mono", monospace;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
