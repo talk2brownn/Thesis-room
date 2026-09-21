@@ -6,6 +6,6 @@ import { defineConfig } from 'vite'
 // so the build needs that repo-name subpath baked in. Local dev (`npm run
 // dev`) is unaffected — Vite only applies `base` to the production build.
 export default defineConfig({
-  base: '/thesis-room/',
+  base: '/Thesis-room/',
   plugins: [react()],
 })
